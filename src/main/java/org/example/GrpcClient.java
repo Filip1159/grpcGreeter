@@ -4,14 +4,16 @@ import io.grpc.ManagedChannelBuilder;
 import org.example.grpc.HelloRequest;
 import org.example.grpc.HelloServiceGrpc;
 
+import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class GrpcClient {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnknownHostException {
         var channel = ManagedChannelBuilder.forAddress("localhost", 9000)
                 .usePlaintext()
                 .build();
         var scanner = new Scanner(System.in);
+        MyData.info();
         while (true) {
             System.out.print("Podaj swoje imię: ");
             var firstName = scanner.nextLine();

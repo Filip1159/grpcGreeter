@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66527e23-5cf6-468b-a569-aa2205b2f650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/protoeditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/HelloService.proto" afterDir="false" />
+    <list default="true" id="66527e23-5cf6-468b-a569-aa2205b2f650" name="Changes" comment="Working version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/HelloService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/HelloService.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,12 +121,26 @@
       <workItem from="1678462850303" duration="14000" />
       <workItem from="1678462886790" duration="1868000" />
       <workItem from="1678464990489" duration="812000" />
-      <workItem from="1678472574161" duration="2574000" />
+      <workItem from="1678472574161" duration="3310000" />
+      <workItem from="1678655243744" duration="1926000" />
+      <workItem from="1678775612894" duration="453000" />
     </task>
+    <task id="LOCAL-00001" summary="Working version">
+      <created>1678475447576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678475447576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
